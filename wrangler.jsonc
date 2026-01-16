@@ -1,0 +1,20 @@
+{
+  "main": ".open-next/worker.js",
+  "name": "db-explorer",
+  "compatibility_date": "2024-09-23",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  },
+  "kv_namespaces": [
+    {
+      "binding": "NEXT_CACHE_WORKERS_KV",
+      "id": "0b41229eae30488eb4403659a86e3870"
+    }
+  ]
+}
